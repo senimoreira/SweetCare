@@ -1,0 +1,165 @@
+.person-info-container {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /*background-color: #3068e08c;*/
+}
+
+.top-info-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  /*background-color: #1947248c;*/
+}
+
+.bottom-info-container {
+  flex: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px;
+
+  /*background-color: #36e0308c;*/
+}
+
+.top-info {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #db4c3e;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-info {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #db4c3e;
+  display:flex;
+  float: 2;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* top-info */
+.top-info-person {
+  flex: 2.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /*background-color: #1947248c;*/
+}
+
+.top-info-extra-info {
+  flex: 0.5;
+  /*background-color: #191e478c;*/
+}
+
+.top-info-button {
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: #4647198c;*/
+}
+
+.top-info-photo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-info-data {
+  flex: 2;
+  color: white;
+  font-size: 18px;
+  /*background-color: black;*/
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #DB4C3E;
+  color: white;
+  border: 2px solid white;
+  border-radius: 100px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.Next-doctor-appointment {
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+.Rect-bottom-up {
+  width: 280.5px;
+  height: 100;
+  border-radius: 10px;
+  background-color: white;
+  color: #454f63;
+  font-size: 15px;
+  padding: 10px;
+}
+
+
+.Medicines-remaining {
+  width: 200px;
+  height: 10px;
+
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1vh;
+}
+
+.Rect-bottom-down {
+  width: 280.5px;
+  height: 100;
+  border-radius: 10px;
+  background-color: white;
+  color: #DB4C3E;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.Promazon-13-remaining {
+  width: 330px;
+  height: 16px;
+
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  padding: 1vh;
+  color: #db4c3e;
+}

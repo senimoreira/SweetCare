@@ -1,0 +1,71 @@
+/*2º flex*/
+.NavBar {
+  display: flex;
+  flex-direction: "row";
+  justify-content: flex-start;
+  width: 99vw;
+  height: 10vh;
+  border-radius: 10px;
+  background-color: #db4c3e;
+}
+/* 1º flex*/
+.NameSweetCare {
+  flex: 2.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #ffffff;
+  /*background-color: #aed581;*/
+}
+
+.EditLogo {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 5px;
+  /*background-color: orange;*/
+}
+
+.SearchContainer {
+  flex: 5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+  /*background-color: black;*/
+}
+
+.SearchBar {
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  height: 4vh;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.Search-Patient {
+  flex: 4;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 25px;
+  padding-bottom: 3px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #454f63;
+  /*background-color: #ce93d8;*/
+}
+
+.search-icon-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: #ce93d8;*/
+}
+
+
